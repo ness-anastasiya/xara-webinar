@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.gradient {
+    width: 90%;
+    height: 2px;
+    margin: 0 auto;
+    background: linear-gradient(to right,#2fa5e7, #4741c0, #ff3265);
+}
+
+.links {
+    display: flex;
+    margin: 10px auto;
+}
+
+.list_item {
+    list-style-type: none;
+}
+
+.social_link {
+    width: 18px;
+    height: 18px;
+    margin: 0 5px;
+}
+
+.copyright {
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    font-family: "PompadurLight", sans-serif;
+    font-size: 12px;
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: PompadurLight;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: PompadurRegular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: PompadurMedium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: PompadurSemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}

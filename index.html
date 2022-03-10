@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <script type="text/javascript" src="index.js"></script>
+    <title>Xara Webinar</title>
+</head>
+
+<body class="root">
+    <header class="header">
+        <img src="./img/xara-logo.svg" class="logo" alt="logo">
+    </header>
+
+    <main class="main">
+        <h1 class="title">How to collaborate <br> on an annual marketing plan</h1>
+        <div class="content">
+            <section class="form_container">
+                <h2 class="subtitle">Register for webinar</h2>
+                <form class="form">
+                    <div class="form_grid">
+                        <input class="input input_name input_margin_right" type="text" placeholder="Full name*"
+                            required></input>
+                        <input class="input input_company" type="text" placeholder="Company name*" required></input>
+                        <input class="input input_email input_margin_right" type="email"
+                            placeholder="Work email address*" required></input>
+                        <input class="input input_plus input_margin_right" type="text" placeholder="+"></input>
+                        <input class="input input_tel" type="tel" placeholder="Phone numb"></input>
+                    </div>
+                    <button class="submit" onclick="sendForm()">Submit</button>
+                </form>
+            </section>
+
+            <section class="accordion_container">
+                <h2 class="subtitle">About webinar</h2>
+                <ul class="accordion">
+                    <li class="list_item">
+                        <div class="accordion_item_title" onclick="toggleItem(0)">
+                            <p>What you’ll learn</p>
+                            <span class="arrow_button" id="arrow_0"></span>
+                        </div>
+                        <div class="accordion_item_content" id="item_0">In this webinar, you will learn How to create a
+                            marketing plan
+                            that drives consistent growth by reflecting the overall strategy, encompassing business
+                            goals
+                            with tasks and actions needed to reach them, creating compounding growth through organized,
+                            predictable efforts, that also add adaptability.
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <div class="accordion_item_title" onclick="toggleItem(1)">
+                            <p>Meet the speakers</p>
+                            <span class="arrow_button" id="arrow_1"></span>
+                        </div>
+                        <div class="accordion_item_content" id="item_1">
+                            Alfonso Sica, Product Marketing Manager, Xara
+                            Matt Bolton, CEO, Xara
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <div class="accordion_item_title" onclick="toggleItem(2)">
+                            <p>Who this webinar is best for</p>
+                            <span class="arrow_button" id="arrow_2"></span>
+                        </div>
+                        <div class="accordion_item_content" id="item_2">
+                            Marketing managers, Heads of sales, Business founders, Real Estate Marketeers, Community
+                            Managers
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="gradient"></div>
+        <ul class="links">
+            <li class="list_item">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="social_link" alt="facebook" src="./img/icon-facebook.webp">
+                </a>
+            </li>
+            <li class="list_item">
+                <a href="https://www.twitter.com/" target="_blank">
+                    <img class="social_link" alt="twitter" src="./img/icon-twitter.webp">
+                </a>
+            </li>
+            <li class="list_item">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="social_link" alt="instagram" src="./img/icon-instagram.webp">
+                </a>
+            </li>
+            <li class="list_item">
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img class="social_link" alt="linkedin" src="./img/icon-linkedin.webp">
+                </a>
+            </li>
+        </ul>
+        <p class="copyright">Copyright © 2022 XARA GmbH. Xara® is a registered Trademark of Xara GmbH.</p>
+    </footer>
+</body>
+
+</html>

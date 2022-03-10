@@ -1,0 +1,21 @@
+body {        
+    margin: 0;
+    color: #22313e;
+    font-family: "PompadurRegular", sans-serif;
+    color: #22313e;
+}
+
+.root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, 
+.footer {
+    width: 100%;
+    background: #2e3f4f;
+    height: 85px;
+}
